@@ -1,2 +1,181 @@
-#Test code#
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>Vizsite — Simple, friendly website</title>
+		<meta name="description" content="A clean, accessible starter website. Minimal, mobile-friendly, and SEO-ready — a place to showcase your projects and ideas." />
+		<link rel="canonical" href="https://example.com/" />
+		<meta name="robots" content="index, follow" />
+
+		<!-- Open Graph -->
+		<meta property="og:site_name" content="Vizsite" />
+		<meta property="og:title" content="Vizsite — Simple, friendly website" />
+		<meta property="og:description" content="A clean, accessible starter website. Minimal, mobile-friendly, and SEO-ready — a place to showcase your projects and ideas." />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://example.com/" />
+
+		<!-- Twitter Card -->
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:title" content="Vizsite — Simple, friendly website" />
+		<meta name="twitter:description" content="A clean, accessible starter website. Minimal, mobile-friendly, and SEO-ready." />
+
+		<!-- JSON-LD structured data (WebSite) -->
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "WebSite",
+				"name": "Vizsite",
+				"url": "https://example.com/",
+				"description": "A clean, accessible starter website. Minimal, mobile-friendly, and SEO-ready."
+			}
+		</script>
+
+		<style>
+			/* Minimal, focused styles for a white, friendly layout */
+			:root{
+				--max-width: 1000px;
+				--accent: #0a66c2;
+				--muted: #6b7280;
+				--bg: #ffffff;
+				--text: #111827;
+				--radius: 10px;
+				font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+			}
+			html,body{height:100%}
+			body{
+				margin:0;
+				background:var(--bg);
+				color:var(--text);
+				-webkit-font-smoothing:antialiased;
+				-moz-osx-font-smoothing:grayscale;
+				line-height:1.5;
+				padding:32px;
+				display:flex;
+				justify-content:center;
+			}
+			.container{
+				width:100%;
+				max-width:var(--max-width);
+			}
+			header{
+				display:flex;
+				align-items:center;
+				justify-content:space-between;
+				gap:16px;
+				margin-bottom:28px;
+			}
+			a.logo{
+				text-decoration:none;
+				color:var(--text);
+				font-weight:700;
+				font-size:1.125rem;
+			}
+			nav a{
+				color:var(--muted);
+				text-decoration:none;
+				margin-left:18px;
+				font-size:0.95rem;
+			}
+			main h1{
+				margin:0 0 12px 0;
+				font-size:clamp(1.5rem,4vw,2.25rem);
+				line-height:1.05;
+			}
+			.lead{color:var(--muted); margin:0 0 20px 0}
+			.hero{
+				background: #fff;
+				padding:28px;
+				border-radius:var(--radius);
+				box-shadow: 0 6px 20px rgba(16,24,40,0.06);
+			}
+			.cta{
+				display:inline-block;
+				background:var(--accent);
+				color:white;
+				padding:10px 16px;
+				border-radius:8px;
+				text-decoration:none;
+				font-weight:600;
+			}
+			.grid{
+				display:grid;
+				grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+				gap:16px;
+				margin-top:20px;
+			}
+			.card{
+				padding:16px;
+				border-radius:10px;
+				background:#fafafa;
+				border:1px solid #f1f5f9;
+			}
+			footer{
+				margin-top:28px;
+				color:var(--muted);
+				font-size:0.9rem;
+			}
+			@media (max-width:520px){
+				body{padding:20px}
+				header{flex-direction:column; align-items:flex-start}
+				nav a{margin-left:0; margin-right:12px}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<a class="skip-link" href="#main" style="position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden">Skip to content</a>
+			<header>
+				<a class="logo" href="/" aria-label="Vizsite home">Vizsite</a>
+				<nav aria-label="Main navigation">
+					<a href="#about">About</a>
+					<a href="#projects">Projects</a>
+					<a href="#contact">Contact</a>
+				</nav>
+			</header>
+
+			<main id="main" class="hero" role="main">
+				<h1>Simple, friendly website starter</h1>
+				<p class="lead">A clean, accessible, and SEO-ready template. Replace this copy with your own content and add pages as needed.</p>
+				<p>
+					<a class="cta" href="#projects">See projects</a>
+					<a href="#contact" style="margin-left:12px;color:var(--accent)">Get in touch</a>
+				</p>
+
+				<section id="projects" aria-labelledby="projects-heading" style="margin-top:18px">
+					<h2 id="projects-heading" style="font-size:1rem;margin:0 0 8px 0">What you can add</h2>
+					<div class="grid" role="list">
+						<article class="card" role="listitem">
+							<strong>Portfolio</strong>
+							<p style="margin:8px 0 0 0;color:var(--muted)">Showcase projects, case studies, and links to demos or GitHub.</p>
+						</article>
+						<article class="card" role="listitem">
+							<strong>Blog</strong>
+							<p style="margin:8px 0 0 0;color:var(--muted)">Write articles to attract visitors and improve search visibility.</p>
+						</article>
+						<article class="card" role="listitem">
+							<strong>Contact</strong>
+							<p style="margin:8px 0 0 0;color:var(--muted)">Add a simple contact form or an email link for inquiries.</p>
+						</article>
+					</div>
+				</section>
+			</main>
+
+			<footer role="contentinfo">
+				<p>© <span id="year"></span> Vizsite. All rights reserved.</p>
+				<p><a href="/sitemap.xml">Sitemap</a> · <a href="/privacy.html">Privacy</a></p>
+			</footer>
+		</div>
+
+		<script>
+			// Small progressive enhancement: set current year and make skip link visible on focus
+			document.getElementById('year').textContent = new Date().getFullYear();
+			const skip = document.querySelector('.skip-link');
+			document.addEventListener('keydown', function(e){
+				if(e.key === 'Tab') skip.style.left = '8px';
+			});
+			skip.addEventListener('blur', ()=> skip.style.left='-999px');
+		</script>
+	</body>
+</html>
 
