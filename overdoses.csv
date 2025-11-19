@@ -1,0 +1,309 @@
+Data Extract Date,Overdose Death Year,Overdose Death Quarter,Overdose Death Drug Class,Overdose Death Count,"Overdose Death Rate per 100,000 Residents"
+10/6/2025,2019,Q1,Natural and Semi-Synthetic Opioids,62,0.7
+10/6/2025,2021,Q3,Methadone,25,0.3
+10/6/2025,2025,Q4,Psychostimulant,0,0
+10/6/2025,2020,Q1,Methadone,20,0.2
+10/6/2025,2019,Q4,Cocaine,124,1.5
+10/6/2025,2025,Q4,Heroin,0,0
+10/6/2025,2022,Q4,"Natural, Semi-Synthetic and Synthetic Opioids",512,6
+10/6/2025,2024,Q2,"Prescription Pain Relievers: Natural, Semi-Synthetic and Methadone",50,0.6
+10/6/2025,2024,Q3,Natural and Semi-Synthetic Opioids,31,0.4
+10/6/2025,2022,Q3,All-Drug,641,7.5
+10/6/2025,2023,Q3,Natural and Semi-Synthetic Opioids,37,0.4
+10/6/2025,2025,Q3,All-Drug,7,0.1
+10/6/2025,2019,Q2,Any Opioids,314,3.7
+10/6/2025,2022,Q4,Any Opioids,522,6.1
+10/6/2025,2020,Q2,Natural and Semi-Synthetic Opioids,92,1.1
+10/6/2025,2019,Q3,Fentanyl and Other Synthetic Opioids,228,2.7
+10/6/2025,2019,Q3,"Prescription Pain Relievers: Natural, Semi-Synthetic and Methadone",67,0.8
+10/6/2025,2019,Q2,"Natural, Semi-Synthetic and Synthetic Opioids",283,3.3
+10/6/2025,2021,Q4,"Prescription Pain Relievers: Natural, Semi-Synthetic and Methadone",88,1
+10/6/2025,2020,Q2,"Natural, Semi-Synthetic and Synthetic Opioids",536,6.2
+10/6/2025,2024,Q2,Heroin,30,0.3
+10/6/2025,2023,Q1,Psychostimulant,166,1.9
+10/6/2025,2024,Q3,Cocaine,132,1.5
+10/6/2025,2019,Q1,Heroin,139,1.6
+10/6/2025,2025,Q1,Cocaine,86,1
+10/6/2025,2024,Q3,Any Opioids,235,2.7
+10/6/2025,2025,Q2,Fentanyl and Other Synthetic Opioids,17,0.2
+10/6/2025,2023,Q3,Methadone,19,0.2
+10/6/2025,2023,Q2,Any Opioids,567,6.6
+10/6/2025,2021,Q4,Natural and Semi-Synthetic Opioids,72,0.8
+10/6/2025,2023,Q3,Heroin,35,0.4
+10/6/2025,2022,Q1,Psychostimulant,148,1.7
+10/6/2025,2019,Q2,Cocaine,81,0.9
+10/6/2025,2025,Q2,Heroin,0,0
+10/6/2025,2025,Q1,Natural and Semi-Synthetic Opioids,24,0.3
+10/6/2025,2023,Q1,All-Drug,680,7.9
+10/6/2025,2020,Q2,"Prescription Pain Relievers: Natural, Semi-Synthetic and Methadone",114,1.3
+10/6/2025,2025,Q1,"Natural, Semi-Synthetic and Synthetic Opioids",147,1.7
+10/6/2025,2024,Q3,"Prescription Pain Relievers: Natural, Semi-Synthetic and Methadone",48,0.6
+10/6/2025,2020,Q4,Natural and Semi-Synthetic Opioids,73,0.8
+10/6/2025,2022,Q2,Any Opioids,506,5.9
+10/6/2025,2022,Q2,All-Drug,605,7
+10/6/2025,2024,Q2,Natural and Semi-Synthetic Opioids,39,0.5
+10/6/2025,2023,Q1,Benzodiazepine,38,0.4
+10/6/2025,2024,Q4,Heroin,19,0.2
+10/6/2025,2024,Q1,Methadone,17,0.2
+10/6/2025,2022,Q1,"Prescription Pain Relievers: Natural, Semi-Synthetic and Methadone",65,0.8
+10/6/2025,2024,Q2,Cocaine,153,1.8
+10/6/2025,2023,Q4,Any Opioids,430,5
+10/6/2025,2021,Q2,Natural and Semi-Synthetic Opioids,72,0.8
+10/6/2025,2020,Q1,All-Drug,437,5.1
+10/6/2025,2022,Q4,Natural and Semi-Synthetic Opioids,59,0.7
+10/6/2025,2024,Q4,All-Drug,250,2.9
+10/6/2025,2020,Q2,Any Opioids,549,6.4
+10/6/2025,2021,Q1,"Natural, Semi-Synthetic and Synthetic Opioids",564,6.6
+10/6/2025,2022,Q3,"Natural, Semi-Synthetic and Synthetic Opioids",544,6.3
+10/6/2025,2019,Q3,Psychostimulant,53,0.6
+10/6/2025,2024,Q4,Natural and Semi-Synthetic Opioids,27,0.3
+10/6/2025,2022,Q4,All-Drug,620,7.2
+10/6/2025,2021,Q1,Cocaine,182,2.1
+10/6/2025,2023,Q1,Fentanyl and Other Synthetic Opioids,533,6.2
+10/6/2025,2021,Q2,Methadone,21,0.2
+10/6/2025,2024,Q4,Benzodiazepine,23,0.3
+10/6/2025,2025,Q3,Benzodiazepine,0,0
+10/6/2025,2023,Q2,Natural and Semi-Synthetic Opioids,29,0.3
+10/6/2025,2021,Q4,Any Opioids,543,6.3
+10/6/2025,2025,Q2,All-Drug,35,0.4
+10/6/2025,2019,Q1,Methadone,24,0.3
+10/6/2025,2024,Q1,Any Opioids,324,3.8
+10/6/2025,2019,Q2,"Prescription Pain Relievers: Natural, Semi-Synthetic and Methadone",83,1
+10/6/2025,2019,Q3,All-Drug,358,4.2
+10/6/2025,2023,Q1,Methadone,25,0.3
+10/6/2025,2019,Q4,"Natural, Semi-Synthetic and Synthetic Opioids",347,4.1
+10/6/2025,2025,Q1,Methadone,9,0.1
+10/6/2025,2025,Q3,Fentanyl and Other Synthetic Opioids,0,0
+10/6/2025,2022,Q2,Methadone,15,0.2
+10/6/2025,2019,Q2,Psychostimulant,36,0.4
+10/6/2025,2022,Q1,Cocaine,208,2.4
+10/6/2025,2020,Q1,Heroin,124,1.4
+10/6/2025,2023,Q4,"Natural, Semi-Synthetic and Synthetic Opioids",429,5
+10/6/2025,2025,Q2,"Prescription Pain Relievers: Natural, Semi-Synthetic and Methadone",7,0.1
+10/6/2025,2022,Q1,Benzodiazepine,45,0.5
+10/6/2025,2025,Q3,Heroin,0,0
+10/6/2025,2019,Q3,Cocaine,110,1.3
+10/6/2025,2019,Q1,Any Opioids,316,3.7
+10/6/2025,2022,Q3,Any Opioids,548,6.4
+10/6/2025,2020,Q1,Cocaine,140,1.6
+10/6/2025,2019,Q4,"Prescription Pain Relievers: Natural, Semi-Synthetic and Methadone",79,0.9
+10/6/2025,2024,Q2,Fentanyl and Other Synthetic Opioids,303,3.5
+10/6/2025,2019,Q4,Fentanyl and Other Synthetic Opioids,307,3.6
+10/6/2025,2022,Q4,Methadone,17,0.2
+10/6/2025,2020,Q1,Benzodiazepine,52,0.6
+10/6/2025,2021,Q3,Natural and Semi-Synthetic Opioids,68,0.8
+10/6/2025,2024,Q4,Cocaine,82,1
+10/6/2025,2025,Q4,Any Opioids,0,0
+10/6/2025,2021,Q2,All-Drug,663,7.7
+10/6/2025,2021,Q3,"Natural, Semi-Synthetic and Synthetic Opioids",543,6.3
+10/6/2025,2020,Q1,"Prescription Pain Relievers: Natural, Semi-Synthetic and Methadone",74,0.9
+10/6/2025,2022,Q4,Heroin,53,0.6
+10/6/2025,2019,Q3,Benzodiazepine,28,0.3
+10/6/2025,2020,Q4,Any Opioids,456,5.3
+10/6/2025,2022,Q2,Natural and Semi-Synthetic Opioids,59,0.7
+10/6/2025,2024,Q2,All-Drug,424,4.9
+10/6/2025,2025,Q1,Benzodiazepine,24,0.3
+10/6/2025,2021,Q1,"Prescription Pain Relievers: Natural, Semi-Synthetic and Methadone",105,1.2
+10/6/2025,2020,Q3,Methadone,21,0.2
+10/6/2025,2024,Q4,Psychostimulant,60,0.7
+10/6/2025,2019,Q3,Methadone,11,0.1
+10/6/2025,2025,Q3,Psychostimulant,0,0
+10/6/2025,2021,Q4,Methadone,20,0.2
+10/6/2025,2024,Q2,Benzodiazepine,25,0.3
+10/6/2025,2020,Q1,Psychostimulant,66,0.8
+10/6/2025,2019,Q2,Fentanyl and Other Synthetic Opioids,235,2.8
+10/6/2025,2025,Q4,All-Drug,0,0
+10/6/2025,2021,Q2,Any Opioids,563,6.6
+10/6/2025,2023,Q4,Natural and Semi-Synthetic Opioids,41,0.5
+10/6/2025,2023,Q1,Cocaine,258,3
+10/6/2025,2025,Q1,Fentanyl and Other Synthetic Opioids,123,1.4
+10/6/2025,2021,Q2,"Natural, Semi-Synthetic and Synthetic Opioids",555,6.5
+10/6/2025,2019,Q3,Heroin,112,1.3
+10/6/2025,2025,Q3,Cocaine,0,0
+10/6/2025,2022,Q3,Cocaine,235,2.7
+10/6/2025,2020,Q3,Heroin,116,1.4
+10/6/2025,2019,Q1,Cocaine,96,1.1
+10/6/2025,2022,Q2,Psychostimulant,138,1.6
+10/6/2025,2025,Q1,Heroin,19,0.2
+10/6/2025,2019,Q2,Benzodiazepine,38,0.4
+10/6/2025,2021,Q1,Benzodiazepine,67,0.8
+10/6/2025,2023,Q1,Heroin,43,0.5
+10/6/2025,2024,Q2,Psychostimulant,99,1.2
+10/6/2025,2019,Q4,Psychostimulant,67,0.8
+10/6/2025,2023,Q3,All-Drug,597,6.9
+10/6/2025,2025,Q3,Natural and Semi-Synthetic Opioids,0,0
+10/6/2025,2025,Q4,"Prescription Pain Relievers: Natural, Semi-Synthetic and Methadone",0,0
+10/6/2025,2023,Q2,"Natural, Semi-Synthetic and Synthetic Opioids",564,6.6
+10/6/2025,2024,Q1,"Prescription Pain Relievers: Natural, Semi-Synthetic and Methadone",43,0.5
+10/6/2025,2023,Q4,Psychostimulant,108,1.3
+10/6/2025,2020,Q3,Natural and Semi-Synthetic Opioids,66,0.8
+10/6/2025,2021,Q1,Fentanyl and Other Synthetic Opioids,525,6.1
+10/6/2025,2021,Q4,"Natural, Semi-Synthetic and Synthetic Opioids",534,6.2
+10/6/2025,2022,Q4,Fentanyl and Other Synthetic Opioids,478,5.6
+10/6/2025,2020,Q3,Benzodiazepine,61,0.7
+10/6/2025,2024,Q3,Heroin,22,0.3
+10/6/2025,2021,Q4,Cocaine,183,2.1
+10/6/2025,2024,Q4,Fentanyl and Other Synthetic Opioids,147,1.7
+10/6/2025,2021,Q1,Heroin,113,1.3
+10/6/2025,2020,Q2,Heroin,172,2
+10/6/2025,2019,Q4,Benzodiazepine,40,0.5
+10/6/2025,2020,Q1,Fentanyl and Other Synthetic Opioids,311,3.6
+10/6/2025,2023,Q3,Any Opioids,490,5.7
+10/6/2025,2019,Q4,Natural and Semi-Synthetic Opioids,63,0.7
+10/6/2025,2021,Q4,All-Drug,639,7.4
+10/6/2025,2025,Q2,Any Opioids,21,0.2
+10/6/2025,2023,Q2,Fentanyl and Other Synthetic Opioids,547,6.4
+10/6/2025,2022,Q1,"Natural, Semi-Synthetic and Synthetic Opioids",523,6.1
+10/6/2025,2023,Q3,"Natural, Semi-Synthetic and Synthetic Opioids",485,5.6
+10/6/2025,2023,Q4,"Prescription Pain Relievers: Natural, Semi-Synthetic and Methadone",64,0.7
+10/6/2025,2025,Q2,"Natural, Semi-Synthetic and Synthetic Opioids",21,0.2
+10/6/2025,2020,Q2,Cocaine,127,1.5
+10/6/2025,2025,Q1,Psychostimulant,47,0.5
+10/6/2025,2022,Q2,Heroin,62,0.7
+10/6/2025,2024,Q4,Methadone,17,0.2
+10/6/2025,2020,Q3,Psychostimulant,107,1.2
+10/6/2025,2019,Q2,Methadone,23,0.3
+10/6/2025,2022,Q2,Fentanyl and Other Synthetic Opioids,476,5.5
+10/6/2025,2024,Q3,Benzodiazepine,27,0.3
+10/6/2025,2023,Q3,Cocaine,239,2.8
+10/6/2025,2025,Q4,Cocaine,0,0
+10/6/2025,2019,Q4,Heroin,140,1.6
+10/6/2025,2020,Q4,Heroin,87,1
+10/6/2025,2022,Q2,"Prescription Pain Relievers: Natural, Semi-Synthetic and Methadone",73,0.8
+10/6/2025,2024,Q4,"Natural, Semi-Synthetic and Synthetic Opioids",171,2
+10/6/2025,2025,Q2,Methadone,*,*
+10/6/2025,2019,Q1,All-Drug,382,4.5
+10/6/2025,2020,Q1,"Natural, Semi-Synthetic and Synthetic Opioids",349,4.1
+10/6/2025,2023,Q4,Fentanyl and Other Synthetic Opioids,395,4.6
+10/6/2025,2021,Q3,Benzodiazepine,64,0.7
+10/6/2025,2025,Q3,Any Opioids,1,*
+10/6/2025,2025,Q3,"Prescription Pain Relievers: Natural, Semi-Synthetic and Methadone",1,*
+10/6/2025,2022,Q2,Benzodiazepine,40,0.5
+10/6/2025,2025,Q4,"Natural, Semi-Synthetic and Synthetic Opioids",0,0
+10/6/2025,2023,Q2,"Prescription Pain Relievers: Natural, Semi-Synthetic and Methadone",46,0.5
+10/6/2025,2021,Q1,Psychostimulant,144,1.7
+10/6/2025,2022,Q4,Psychostimulant,141,1.6
+10/6/2025,2024,Q3,Psychostimulant,78,0.9
+10/6/2025,2020,Q4,Methadone,21,0.2
+10/6/2025,2022,Q3,Heroin,62,0.7
+10/6/2025,2019,Q4,Methadone,21,0.2
+10/6/2025,2019,Q3,Any Opioids,271,3.2
+10/6/2025,2020,Q4,Benzodiazepine,73,0.8
+10/6/2025,2022,Q3,Fentanyl and Other Synthetic Opioids,521,6.1
+10/6/2025,2022,Q1,Any Opioids,526,6.1
+10/6/2025,2023,Q4,Benzodiazepine,44,0.5
+10/6/2025,2021,Q3,Fentanyl and Other Synthetic Opioids,517,6
+10/6/2025,2022,Q4,"Prescription Pain Relievers: Natural, Semi-Synthetic and Methadone",74,0.9
+10/6/2025,2024,Q2,"Natural, Semi-Synthetic and Synthetic Opioids",331,3.9
+10/6/2025,2019,Q1,"Natural, Semi-Synthetic and Synthetic Opioids",273,3.2
+10/6/2025,2024,Q1,Heroin,21,0.2
+10/6/2025,2023,Q2,Psychostimulant,153,1.8
+10/6/2025,2021,Q3,Heroin,112,1.3
+10/6/2025,2021,Q3,All-Drug,645,7.5
+10/6/2025,2020,Q3,Fentanyl and Other Synthetic Opioids,455,5.3
+10/6/2025,2022,Q4,Benzodiazepine,44,0.5
+10/6/2025,2021,Q2,Benzodiazepine,65,0.8
+10/6/2025,2021,Q1,Natural and Semi-Synthetic Opioids,78,0.9
+10/6/2025,2021,Q2,Cocaine,204,2.4
+10/6/2025,2022,Q3,Methadone,24,0.3
+10/6/2025,2021,Q1,Methadone,38,0.4
+10/6/2025,2020,Q3,"Prescription Pain Relievers: Natural, Semi-Synthetic and Methadone",83,1
+10/6/2025,2019,Q2,Natural and Semi-Synthetic Opioids,63,0.7
+10/6/2025,2022,Q1,All-Drug,624,7.3
+10/6/2025,2024,Q1,Natural and Semi-Synthetic Opioids,27,0.3
+10/6/2025,2023,Q2,Benzodiazepine,39,0.5
+10/6/2025,2025,Q4,Natural and Semi-Synthetic Opioids,0,0
+10/6/2025,2023,Q4,All-Drug,521,6.1
+10/6/2025,2024,Q1,Benzodiazepine,31,0.4
+10/6/2025,2021,Q3,"Prescription Pain Relievers: Natural, Semi-Synthetic and Methadone",89,1
+10/6/2025,2020,Q4,Cocaine,132,1.5
+10/6/2025,2019,Q1,Fentanyl and Other Synthetic Opioids,222,2.6
+10/6/2025,2024,Q2,Methadone,15,0.2
+10/6/2025,2023,Q3,Psychostimulant,129,1.5
+10/6/2025,2024,Q1,Cocaine,163,1.9
+10/6/2025,2023,Q2,Cocaine,265,3.1
+10/6/2025,2024,Q3,Fentanyl and Other Synthetic Opioids,206,2.4
+10/6/2025,2020,Q3,"Natural, Semi-Synthetic and Synthetic Opioids",496,5.8
+10/6/2025,2020,Q2,Fentanyl and Other Synthetic Opioids,489,5.7
+10/6/2025,2019,Q2,Heroin,139,1.6
+10/6/2025,2025,Q2,Cocaine,9,0.1
+10/6/2025,2020,Q4,All-Drug,565,6.6
+10/6/2025,2024,Q2,Any Opioids,334,3.9
+10/6/2025,2025,Q1,Any Opioids,148,1.7
+10/6/2025,2022,Q3,Psychostimulant,146,1.7
+10/6/2025,2025,Q4,Methadone,0,0
+10/6/2025,2021,Q3,Psychostimulant,148,1.7
+10/6/2025,2023,Q2,Heroin,40,0.5
+10/6/2025,2024,Q1,Psychostimulant,99,1.2
+10/6/2025,2023,Q3,"Prescription Pain Relievers: Natural, Semi-Synthetic and Methadone",53,0.6
+10/6/2025,2022,Q4,Cocaine,224,2.6
+10/6/2025,2023,Q2,All-Drug,665,7.7
+10/6/2025,2025,Q2,Natural and Semi-Synthetic Opioids,*,*
+10/6/2025,2022,Q1,Natural and Semi-Synthetic Opioids,50,0.6
+10/6/2025,2024,Q1,All-Drug,403,4.7
+10/6/2025,2023,Q3,Benzodiazepine,26,0.3
+10/6/2025,2021,Q4,Fentanyl and Other Synthetic Opioids,497,5.8
+10/6/2025,2025,Q2,Benzodiazepine,*,*
+10/6/2025,2020,Q2,Methadone,26,0.3
+10/6/2025,2020,Q4,Psychostimulant,118,1.4
+10/6/2025,2024,Q3,Methadone,18,0.2
+10/6/2025,2023,Q4,Cocaine,219,2.5
+10/6/2025,2024,Q3,"Natural, Semi-Synthetic and Synthetic Opioids",234,2.7
+10/6/2025,2020,Q2,Benzodiazepine,49,0.6
+10/6/2025,2020,Q1,Natural and Semi-Synthetic Opioids,57,0.7
+10/6/2025,2021,Q1,All-Drug,675,7.9
+10/6/2025,2021,Q1,Any Opioids,570,6.6
+10/6/2025,2022,Q1,Methadone,16,0.2
+10/6/2025,2021,Q2,Psychostimulant,136,1.6
+10/6/2025,2022,Q2,Cocaine,223,2.6
+10/6/2025,2019,Q1,Psychostimulant,51,0.6
+10/6/2025,2023,Q4,Methadone,24,0.3
+10/6/2025,2021,Q3,Cocaine,190,2.2
+10/6/2025,2020,Q1,Any Opioids,360,4.2
+10/6/2025,2023,Q3,Fentanyl and Other Synthetic Opioids,461,5.4
+10/6/2025,2021,Q4,Benzodiazepine,61,0.7
+10/6/2025,2022,Q2,"Natural, Semi-Synthetic and Synthetic Opioids",500,5.8
+10/6/2025,2024,Q4,"Prescription Pain Relievers: Natural, Semi-Synthetic and Methadone",41,0.5
+10/6/2025,2023,Q1,Any Opioids,571,6.6
+10/6/2025,2019,Q3,Natural and Semi-Synthetic Opioids,59,0.7
+10/6/2025,2020,Q2,Psychostimulant,122,1.4
+10/6/2025,2023,Q1,"Natural, Semi-Synthetic and Synthetic Opioids",564,6.6
+10/6/2025,2021,Q2,"Prescription Pain Relievers: Natural, Semi-Synthetic and Methadone",87,1
+10/6/2025,2023,Q1,Natural and Semi-Synthetic Opioids,61,0.7
+10/6/2025,2025,Q1,All-Drug,218,2.5
+10/6/2025,2024,Q1,Fentanyl and Other Synthetic Opioids,306,3.6
+10/6/2025,2025,Q4,Fentanyl and Other Synthetic Opioids,0,0
+10/6/2025,2019,Q1,"Prescription Pain Relievers: Natural, Semi-Synthetic and Methadone",79,0.9
+10/6/2025,2021,Q4,Psychostimulant,142,1.7
+10/6/2025,2025,Q3,Methadone,1,*
+10/6/2025,2019,Q2,All-Drug,371,4.3
+10/6/2025,2023,Q2,Methadone,18,0.2
+10/6/2025,2021,Q4,Heroin,76,0.9
+10/6/2025,2020,Q4,"Prescription Pain Relievers: Natural, Semi-Synthetic and Methadone",92,1.1
+10/6/2025,2020,Q4,Fentanyl and Other Synthetic Opioids,397,4.6
+10/6/2025,2022,Q3,Benzodiazepine,39,0.5
+10/6/2025,2023,Q1,"Prescription Pain Relievers: Natural, Semi-Synthetic and Methadone",81,0.9
+10/6/2025,2024,Q4,Any Opioids,173,2
+10/6/2025,2020,Q2,All-Drug,616,7.2
+10/6/2025,2022,Q3,Natural and Semi-Synthetic Opioids,51,0.6
+10/6/2025,2024,Q3,All-Drug,326,3.8
+10/6/2025,2025,Q1,"Prescription Pain Relievers: Natural, Semi-Synthetic and Methadone",32,0.4
+10/6/2025,2023,Q4,Heroin,30,0.3
+10/6/2025,2025,Q3,"Natural, Semi-Synthetic and Synthetic Opioids",1,*
+10/6/2025,2020,Q3,Cocaine,143,1.7
+10/6/2025,2022,Q1,Heroin,68,0.8
+10/6/2025,2025,Q2,Psychostimulant,11,0.1
+10/6/2025,2021,Q2,Fentanyl and Other Synthetic Opioids,520,6.1
+10/6/2025,2024,Q1,"Natural, Semi-Synthetic and Synthetic Opioids",324,3.8
+10/6/2025,2025,Q4,Benzodiazepine,0,0
+10/6/2025,2022,Q1,Fentanyl and Other Synthetic Opioids,492,5.7
+10/6/2025,2021,Q3,Any Opioids,549,6.4
+10/6/2025,2019,Q4,All-Drug,435,5.1
+10/6/2025,2019,Q4,Any Opioids,365,4.3
+10/6/2025,2021,Q2,Heroin,100,1.2
+10/6/2025,2019,Q3,"Natural, Semi-Synthetic and Synthetic Opioids",260,3
+10/6/2025,2022,Q3,"Prescription Pain Relievers: Natural, Semi-Synthetic and Methadone",72,0.8
+10/6/2025,2020,Q4,"Natural, Semi-Synthetic and Synthetic Opioids",444,5.2
+10/6/2025,2020,Q3,Any Opioids,510,5.9
+10/6/2025,2020,Q3,All-Drug,598,7
+10/6/2025,2019,Q1,Benzodiazepine,55,0.6
