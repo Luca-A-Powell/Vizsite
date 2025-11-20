@@ -2,34 +2,37 @@
 const margin = { top: 70, right: 40, bottom: 60, left: 175 }
 const width = 660 - margin.left - margin.right
 const height = 400 - margin.top - margin.bottom
+const tooltip = d3.select('body')
+  .append('div')
+  .attr('class', 'tooltip');
 
 // Create the SVG container for the chart
-const svg = d3.select("#bog-body-chart").append("svg")
+const svg = d3.select("#goalscorer-chart").append("svg")
   .attr("width", width + margin.left + margin.right)
   .attr("height", height + margin.top + margin.bottom)
   .append("g")
   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 // Load and process the data
-d3.csv("bog_bodies.csv").then(data => {
+d3.csv("goalscorer_data.csv").then(data => {
   data.forEach(d => {
-    d.total = +d.total;
+    d.Goals_Scored = +d.Goals_Scored;
   });
 
   // Sort the data by total
   data.sort(function (a, b) {
-    return d3.ascending(a.total, b.total);
+    return d3.ascending(a.Goals_Scored, b.Goals_Scored);
   });
 
   // Set the x and y scales
   const x = d3.scaleLinear()
     .range([0, width])
-    .domain([0, d3.max(data, function (d) { return d.total; })]);
+    .domain([0, d3.max(data, function (d) { return d.Goals_Scored; })]);
 
   const y = d3.scaleBand()
     .range([height, 0])
     .padding(0.1)
-    .domain(data.map(function (d) { return d.bog_body_type; }));
+    .domain(data.map(function (d) { return d.Rank; }));
 
   // Create the x and y axes
   const xAxis = d3.axisBottom(x)
@@ -62,11 +65,24 @@ d3.csv("bog_bodies.csv").then(data => {
     .data(data)
     .enter().append("rect")
     .attr("class", "bar")
-    .attr("y", function (d) { return y(d.bog_body_type); })
+    .attr("y", function (d) { return y(d.Rank); })
     .attr("height", y.bandwidth())
     .attr("x", 0)
-    .attr("width", function (d) { return x(d.total); })
+    .attr("width", function (d) { return x(d.Goals_Scored); })
     .attr('fill', '#96a5b9')
+    .on('mouseover', (event, d) => {
+    tooltip
+      .style('opacity', 1)
+      .html(`<strong>${d.Name}</strong><br/>Goals: ${d.Goals_Scored}`);
+  })
+     .on('mousemove', (event) => {
+    tooltip
+      .style('left', (event.pageX + 10) + 'px')
+      .style('top', (event.pageY + 10) + 'px');
+  })
+  .on('mouseout', () => {
+    tooltip.style('opacity', 0);
+  });
 
   // Add the x and y axes to the chart
   svg.append("g")
@@ -93,14 +109,24 @@ d3.csv("bog_bodies.csv").then(data => {
   svg.selectAll(".label")
     .data(data)
     .enter().append("text")
-    .attr("x", function (d) { return x(d.total) + 5; })
-    .attr("y", function (d) { return y(d.bog_body_type) + y.bandwidth() / 2; })
+    // position labels: inside the bar when there's enough room, otherwise outside
+    .attr("x", function (d) {
+      const xpos = x(d.Goals_Scored);
+      const insideThreshold = 40; // px; tweak if you want more/less inside placement
+      // attach a helper flag to the datum so we can set anchor/color later
+      d._labelInside = xpos > insideThreshold;
+      return d._labelInside ? xpos - 6 : xpos + 6;
+    })
+    // use the same band scale key (Rank) as the bars so each label lines up with its bar
+    .attr("y", function (d) { return y(d.Rank) + y.bandwidth() / 2; })
     .attr("dy", ".35em")
     .style("font-family", "sans-serif")
     .style("font-size", "10px")
     .style("font-weight", "bold")
-    .style('fill', '#3c3d28')
-    .text(function (d) { return d.total; });
+    .style('fill', function(d){ return d._labelInside ? 'white' : '#3c3d28'; })
+    .style('pointer-events','none')
+    .style('text-anchor', function(d){ return d._labelInside ? 'end' : 'start'; })
+    .text(function (d) { return d.Name; });
 
   // Add Total label
   svg.append("text")
@@ -111,7 +137,7 @@ d3.csv("bog_bodies.csv").then(data => {
     .style("font-family", "sans-serif")
     .attr("dy", "1em")
     .text("Total");
-
+  
   // Add the chart title
   svg.append("text")
     .attr("x", margin.left - 335)
@@ -119,7 +145,7 @@ d3.csv("bog_bodies.csv").then(data => {
     .style("font-size", "14px")
     .style("font-weight", "bold")
     .style("font-family", "sans-serif")
-    .text("Bog Mummies Are the Most Frequently Observed Preservation State");
+    .text("This season's top goalscorers in the premier league.");
 
   // Add the chart data source
   svg.append("text")
@@ -130,4 +156,5 @@ d3.csv("bog_bodies.csv").then(data => {
     .style("font-family", "sans-serif")
     .html("<a href='https://www.cambridge.org/core/journals/antiquity/article/bogs-bones-and-bodies-the-deposition-of-human-remains-in-northern-european-mires-9000-bcad-1900/B90A16A211894CB87906A7BCFC0B2FC7#supplementary-materials'>Source: Bogs, Bones and Bodies - Published by Cambridge Press</a>");
 
+    
 });
