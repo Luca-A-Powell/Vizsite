@@ -1,14 +1,11 @@
 .container {
     text-align: center;
-    /*margin-bottom: 2rem;*/
     font-family: 'Times New Roman', Times, serif;
-    /*background-color: antiquewhite;*/
     margin:auto;
 }
 
 .container.visualization{
     text-align: center;
-    /*background-color: aqua;*/
     margin-bottom: 5em;
 }
 
@@ -22,8 +19,6 @@
     margin: 0 auto;
     text-align: center;
 }
-
-/* tooltip */
 .tooltip{
   position: absolute;
   pointer-events: none;
