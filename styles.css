@@ -1,5 +1,5 @@
 .ribbon {
-    max-width: 800px;
+    max-width: 1000px;
     background-color: none;
     margin: 0 auto;
 }
@@ -80,4 +80,11 @@
 
 .card:hover .card {
     opacity: .01;
+}
+
+
+/*Styles for individual graphic pages*/
+
+.graphic{
+    display: flex;
 }

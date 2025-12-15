@@ -9,8 +9,8 @@ const container = d3.select('#goalscorer-chart');
 container.selectAll('*').remove();
 
 const svg = container.append('svg')
-  .attr('width', width /2 + margin.left + margin.right)
-  .attr('height', height/2 + margin.top + margin.bottom)
+  .attr('width', width + margin.left + margin.right)
+  .attr('height', height + margin.top + margin.bottom)
   .append('g')
   .attr('transform', `translate(${margin.left},${margin.top})`);
 
