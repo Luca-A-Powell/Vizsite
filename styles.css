@@ -1,5 +1,5 @@
 .ribbon {
-    max-width: 1000px;
+    max-width: 1200;
     background-color: none;
     margin: 0 auto;
 }
@@ -87,4 +87,5 @@
 
 .graphic{
     display: flex;
+    margin: 100px;
 }
