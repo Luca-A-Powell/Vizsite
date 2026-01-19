@@ -32,7 +32,7 @@ svg.append("text")
   .attr("x", width / 2)
   .attr("y", -30)
   .attr("text-anchor", "middle")
-  .style("font-size", "16px")
+  .style("font-size", "32px")
   .style("font-weight", "600")
   .text("ICE Detentions in Virginia");
 
@@ -59,7 +59,7 @@ svg.append("text")
     .call(yAxis)
     .attr("opacity","0")
   .transition()
-    .duration(500)
+    .duration(2000)
     .attr("opacity","1");
 
 const totalDuration = 1000; // 1.5 seconds total
