@@ -1,0 +1,36 @@
+.ribbon{
+    margin: 10px;
+    max-width: 100%;
+}
+
+.title{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.charts{
+    display: flex;
+}
+
+/* iPhone / small screen */
+@media (max-width: 768px) {
+    .charts{
+        flex-direction: column;
+    }
+
+    .graphic-two,
+    .graphic-three{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.graphic-two{
+    height: 500px;
+    width: 500px;
+}
+
+.graphic-three{
+    height: 500px;
+    width: 500px;
+}
