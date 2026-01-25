@@ -1,0 +1,21 @@
+
+.page{
+  margin: 0 auto;
+}
+
+/*Styles for the title banner*/
+.title{
+  font-size: 2em;
+  font-family: sans-serif;
+  text-align: center;
+  height: 150px;
+
+}
+
+
+/*Styles for the chart. My viewBox for this div is set in JavaScript*/
+.graphic {
+  margin: 0 auto;
+  max-width: 800px;
+
+}
