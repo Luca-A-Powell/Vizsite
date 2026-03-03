@@ -1,24 +1,11 @@
-.ribbon {
-    max-width: 1200;
-    background-color: none;
-    margin: 0 auto;
-}
-
 .title{
     border-bottom: 1px solid #ccc;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    margin-top:50px; /*space from top of website to my name*/
     text-align: center;
 }
 
-.title h2{
-    margin-bottom: 0px;
-    padding:0px;
-}
-
-.title h5{
-    margin-top:5px;
-}
-
+/*styles for links under my name on the main page*/
 .title a{
     color: rgb(12, 137, 172);
     text-decoration: none;
@@ -30,8 +17,10 @@
 .cards{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .card{
@@ -85,9 +74,52 @@
 }
 
 
-/*Styles for individual graphic pages*/
+/* Styles for ice-arrests page. */
+/* The wrapper is chart-container with four chart-box elements inside*/
 
-.graphic{
+    /*sub styles for mobile*/
+@media (max-width: 767px) {
+  #ice_arrests_page {
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+
+   #chart-container{
     display: flex;
-    margin: 100px;
+    flex-wrap:wrap;
+    gap: 10px;
+  }
+
+  .chart-box{
+    width: 100%;
+    height: 400px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }
+}
+
+
+    /*sub styles for desktop*/
+
+@media (min-width: 768px) {
+    
+#ice_arrests_page {
+    padding: 0 60px;
+    box-sizing: border-box;
+}
+
+#chart-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.chart-box{
+    width: calc(50% - 5px);
+    height: 250px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
 }
